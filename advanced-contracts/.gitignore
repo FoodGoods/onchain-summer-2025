@@ -1,0 +1,47 @@
+# Advanced Contracts - Git Ignore Rules
+
+# Foundry
+cache/
+out/
+broadcast/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Private keys and sensitive data
+*.key
+*.pem
+private-keys.txt
+keystore/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+lib/
+
+# Build artifacts
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Gas reports
+gas-report.txt
+
+# Deployment artifacts
+deployments/
+deployed-contracts.json
