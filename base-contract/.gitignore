@@ -1,0 +1,34 @@
+# Foundry
+cache/
+out/
+broadcast/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Private keys and sensitive data
+*.key
+*.pem
+private-keys.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+lib/
+
+# Build artifacts
+dist/
+build/
